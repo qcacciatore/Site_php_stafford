@@ -1,0 +1,217 @@
+@font-face
+{
+    font-family: Lucida Console;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: Lucida Console;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: Lucida Console;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    background: url("images/fond.png");
+    font-family: Arial;
+    color: #181818;
+}
+
+a {font-family: Lucida Console;text-decoration: none; color:black}
+a:visited { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:black ;font-weight:bold; }
+
+
+#titre_princpal
+{
+    display: inline-block;
+    
+}
+
+header h1, #logo,h3
+{
+    display: inline-block;
+    font-family: Lucida Console, Arial, sans-serif;
+    margin-right: 1em;
+}
+
+header
+{
+    color:black;
+    margin-left: 2em;
+    margin-right: 2em;
+    
+
+}
+
+#banniere
+{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    -moz-box-shadow: 0px 0px 5px 1px #656565;
+-webkit-box-shadow: 0px 0px 5px 1px #656565;
+-o-box-shadow: 0px 0px 5px 1px #656565;
+box-shadow: 0px 0px 5px 1px #656565;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=5);
+}
+
+#banniere_image
+{
+    margin-top: 15px;
+    margin: auto;
+    height: 200px;
+    width: 919px;
+    border-radius: 5px;
+    background: url('images/banniere_2_0.png') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19; 
+    
+}
+
+#banniere_description
+{
+    background-color: rgb(24,24,24); /* Pour les anciens navigateurs */
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 0.8em;
+    bottom: 0;
+    position: absolute;
+    width: 99%;
+    border-radius: 0px 0px 5px 5px;
+    padding-left: 10px; 
+}
+
+nav {
+    text-align:center;
+}
+
+nav li
+{
+ font-family: Lucida Console;
+ font-size: 1.5em;
+ color:black;
+    display: inline-block;
+ margin-right: 50px;
+}
+nav ul{
+    list-style-type: none;
+}
+
+
+#content nav
+{
+    -webkit-flex: 1;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 40px;
+    -moz-box-shadow: 0px 0px 5px 1px #656565;
+-webkit-box-shadow: 0px 0px 5px 1px #656565;
+-o-box-shadow: 0px 0px 5px 1px #656565;
+box-shadow: 0px 0px 5px 1px #656565;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=5);
+}
+
+#content section
+{
+    -webkit-flex : 5;
+    
+}
+
+#presentationSection 
+{
+     display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+flex-direction:row; 
+}
+
+#presentationSection article
+{
+-webkit-flex : 4;
+-moz-box-shadow: 0px 0px 5px 1px #656565;
+-webkit-box-shadow: 0px 0px 5px 1px #656565;
+-o-box-shadow: 0px 0px 5px 1px #656565;
+box-shadow: 0px 0px 5px 1px #656565;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=5);
+margin-left: 40px;
+margin-right: 20px;
+margin-top: 20px;
+padding: 20px;
+}
+
+#presentationSection aside
+{
+    -webkit-flex : 1; 
+    background-color: rgb(200,200,200);
+-moz-box-shadow: 0px 0px 5px 1px #656565;
+-webkit-box-shadow: 0px 0px 5px 1px #656565;
+-o-box-shadow: 0px 0px 5px 1px #656565;
+box-shadow: 0px 0px 5px 1px #656565;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=5);
+margin-left: 0px;
+margin-right: 40px;
+margin-top: 20px;
+
+}
+
+#asideIndex
+{
+ display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+flex-direction:row; 
+}
+
+#asidePresentation
+{
+    -webkit-flex : 5;
+    margin: 8px;
+}
+
+#asideShare
+{
+    -webkit-flex : 1;
+}
+
+#asideShare img
+{
+    margin-left: 8px;
+}
+
+#anchorTopPage
+{
+ position: fixed;
+ top:auto;
+ bottom:0px;
+ right:0px;
+}
+
+#anchorTopPage a:hover
+{
+ font-size: 200%;
+    
+}
+
+footer
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    -moz-box-shadow: 0px 0px 5px 1px #656565;
+-webkit-box-shadow: 0px 0px 5px 1px #656565;
+-o-box-shadow: 0px 0px 5px 1px #656565;
+box-shadow: 0px 0px 5px 1px #656565;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=5);
+}
